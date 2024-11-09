@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My SICP Journey</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My SICP Journey</description>
+    <title>Exercises on My SICP Journey</title>
+    <link>https://myleshenderson.github.io/exercises/</link>
+    <description>Recent content in Exercises on My SICP Journey</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://myleshenderson.github.io/exercises/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exercise 1.1</title>
-      <link>http://localhost:1313/posts/exercise-1.1/</link>
-      <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/exercise-1.1/</guid>
+      <title>Exercise 1.11</title>
+      <link>https://myleshenderson.github.io/exercises/1.11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://myleshenderson.github.io/exercises/1.11/</guid>
       <description>&lt;h2 id=&#34;the-exercise&#34;&gt;The Exercise&lt;/h2&gt;
 &lt;!-- Exercise text from SICP --&gt;
 &lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;
 &lt;!-- Initial thoughts about the problem --&gt;
+&lt;h2 id=&#34;solution-process&#34;&gt;Solution Process&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s how I worked through this problem:&lt;/p&gt;
+
+
+
+
+  
+  
+ 
 &lt;h2 id=&#34;the-solution&#34;&gt;The Solution&lt;/h2&gt;
 &lt;!-- Final solution and explanation --&gt;
 
@@ -32,27 +40,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/1.4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/1.4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/exercise-1.2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/exercise-1.2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>http://localhost:1313/posts/exercise-1.3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/exercise-1.3/</guid>
-      <description></description>
     </item>
   </channel>
 </rss>
