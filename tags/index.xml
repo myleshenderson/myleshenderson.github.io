@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on My SICP Journey</title>
-    <link>https://your-domain.com/tags/</link>
+    <link>https://myleshenderson.github.io/tags/</link>
     <description>Recent content in Tags on My SICP Journey</description>
     <generator>Hugo -- 0.138.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://your-domain.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://myleshenderson.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scheme</title>
-      <link>https://your-domain.com/tags/scheme/</link>
+      <link>https://myleshenderson.github.io/tags/scheme/</link>
       <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://your-domain.com/tags/scheme/</guid>
+      <guid>https://myleshenderson.github.io/tags/scheme/</guid>
       <description></description>
     </item>
     <item>
       <title>Sicp</title>
-      <link>https://your-domain.com/tags/sicp/</link>
+      <link>https://myleshenderson.github.io/tags/sicp/</link>
       <pubDate>Sat, 09 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://your-domain.com/tags/sicp/</guid>
+      <guid>https://myleshenderson.github.io/tags/sicp/</guid>
       <description></description>
     </item>
   </channel>
