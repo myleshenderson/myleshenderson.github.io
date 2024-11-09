@@ -15,21 +15,15 @@
       <guid>https://your-domain.com/posts/exercise-1.2/</guid>
       <description>&lt;h2 id=&#34;the-exercise&#34;&gt;The Exercise&lt;/h2&gt;
 &lt;!-- Exercise text from SICP --&gt;
-&lt;h2 id=&#34;initial-thoughts&#34;&gt;Initial Thoughts&lt;/h2&gt;
+&lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;
 &lt;!-- Initial thoughts about the problem --&gt;
-&lt;h2 id=&#34;dialogue-with-ai&#34;&gt;Dialogue with AI&lt;/h2&gt;
-&lt;!-- Conversation with AI about the problem --&gt;
-&lt;h3 id=&#34;my-question&#34;&gt;My Question&lt;/h3&gt;
-&lt;h3 id=&#34;ai-response&#34;&gt;AI Response&lt;/h3&gt;
-&lt;h3 id=&#34;my-follow-up&#34;&gt;My Follow-up&lt;/h3&gt;
-&lt;h3 id=&#34;ai-response-1&#34;&gt;AI Response&lt;/h3&gt;
 &lt;h2 id=&#34;the-solution&#34;&gt;The Solution&lt;/h2&gt;
 &lt;!-- Final solution and explanation --&gt;
 
 
 
     &lt;div style=&#34;color: red;&#34;&gt;
-        Error: Could not read file at path: static/src/exercises/exercise-1.2.scm
+        Error: Could not read file at path: static/src/exercise-1.2.scm
     &lt;/div&gt;</description>
     </item>
   </channel>
