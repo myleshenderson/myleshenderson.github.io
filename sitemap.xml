@@ -8,11 +8,21 @@
     <loc>https://your-domain.com/site/</loc>
     <lastmod>2024-11-09T00:53:48-05:00</lastmod>
   </url><url>
+    <loc>https://your-domain.com/posts/exercise-1.2/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://your-domain.com/posts/</loc>
     <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://your-domain.com/categories/</loc>
+    <loc>https://your-domain.com/tags/scheme/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://your-domain.com/tags/sicp/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://your-domain.com/tags/</loc>
+    <lastmod>2024-11-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://your-domain.com/categories/</loc>
   </url>
 </urlset>
