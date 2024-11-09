@@ -8,12 +8,12 @@
     <language>en-us</language>
     <atom:link href="https://myleshenderson.github.io/exercises/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Exercise 1.11</title>
-      <link>https://myleshenderson.github.io/exercises/1.11/</link>
+      <title>Exercise 1.1</title>
+      <link>https://myleshenderson.github.io/exercises/1.1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://myleshenderson.github.io/exercises/1.11/</guid>
+      <guid>https://myleshenderson.github.io/exercises/1.1/</guid>
       <description>&lt;h2 id=&#34;the-exercise&#34;&gt;The Exercise&lt;/h2&gt;
-&lt;!-- Exercise text from SICP --&gt;
+&lt;p&gt;Below is a sequence of expressions. What is the result printed by the interpreter in response to each expression? Assume that the sequence is to be evaluated in the order in which it is presented.&lt;/p&gt;
 &lt;h2 id=&#34;thoughts&#34;&gt;Thoughts&lt;/h2&gt;
 &lt;!-- Initial thoughts about the problem --&gt;
 &lt;h2 id=&#34;solution-process&#34;&gt;Solution Process&lt;/h2&gt;
@@ -42,7 +42,7 @@
               &lt;div class=&#34;chat-message user&#34;&gt;
                 &lt;div class=&#34;message-header&#34;&gt;User:&lt;/div&gt;
                 &lt;div class=&#34;message-content&#34;&gt;
-                  i think i could use some help for real this time.
+                  is there anything special that i need to think through?
                 &lt;/div&gt;
               &lt;/div&gt;
             
@@ -55,7 +55,7 @@
               &lt;div class=&#34;chat-message ai&#34;&gt;
                 &lt;div class=&#34;message-header&#34;&gt;AI (claude-3.5-sonnet):&lt;/div&gt;
                 &lt;div class=&#34;message-content&#34;&gt;
-                  &lt;p&gt;I&amp;rsquo;ll help you analyze your &lt;code&gt;.gitignore&lt;/code&gt; file. This appears to be a fairly standard &lt;code&gt;.gitignore&lt;/code&gt; file that&amp;rsquo;s set up for a Hugo website project with some additional custom ignores. What specific help do you need with it?&lt;/p&gt;</description>
+                  &lt;p&gt;Looking at this code, it&amp;rsquo;s a great introduction to Scheme (part of SICP - Structure and Interpretation of Computer Programs). Here are the key things to think through:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
