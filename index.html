@@ -136,8 +136,7 @@
   </header>
   <div class="entry-content">
     <p>The Exercise Below is a sequence of expressions. What is the result printed by the interpreter in response to each expression? Assume that the sequence is to be evaluated in the order in which it is presented.
-Thoughts Solution Process Here’s how I worked through this problem:
-Chat Transcript - Tab 1 User: is there anything special that i need to think through? AI (claude-3.5-sonnet): Looking at this code, it’s a great introduction to Scheme (part of SICP - Structure and Interpretation of Computer Programs). Here are the key things to think through:
+The Solution 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 10 ; 10 (&#43; 5 3 4) ; 12 (- 9 1) ; 8 (/ 6 2) ; 3 (&#43; (* 2 4) (- 4 6)) (define a 3) ; a = 3 (define b (&#43; a 1)) ; b = 4 (&#43; a b (* a b)) ; 19 (= a b) ; #f (if (and (&gt; b a) (&lt; b (* a b))) b a) ; b (cond ((= a 4) 6) ((= b 4) (&#43; 6 7 a)) ; 16 (else 25)) ; 25 (&#43; 2 (if (&gt; b a) b a)) ; 6 (* (cond ((&gt; a b) a) ; 4 ((&lt; a b) b) ; 4 (else -1)) ; -1 (&#43; a 1)) ; 5 Chat Transcript - Tab 1 User: is there anything special that i need to think through? AI (claude-3.5-sonnet): Looking at this code, it’s a great introduction to Scheme (part of SICP - Structure and Interpretation of Computer Programs). Here are the key things to think through:
 ...</p>
   </div>
   <footer class="entry-footer">3 min</footer>
@@ -152,8 +151,7 @@ Chat Transcript - Tab 1 User: is there anything special that i need to think thr
   <div class="entry-content">
     <p>The Exercise Translate the following expression into prefix form
 $5 &#43; 4 &#43; (2 - ( 3- (6 &#43; \frac{4}{5})))/ 3 \cdot (6-2)\cdot(2-7)$
-Thoughts Solution Process Here’s how I worked through this problem:
-Chat Transcript - Tab 1 User: explain the code AI (claude-3.5-sonnet): Let me break down this Scheme expression:
+The Solution 1 2 3 (/ (&#43; 5 4 (- 2 (- 3 (&#43; 6 (/ 4 5))))) (* 3 (- 6 2) (- 2 7))) ; -37/150 Chat Transcript - Tab 1 User: explain the code AI (claude-3.5-sonnet): Let me break down this Scheme expression:
 This is a complex mathematical expression that uses nested functions for arithmetic operations. Let’s solve it step by step from the inside out:
 ...</p>
   </div>
