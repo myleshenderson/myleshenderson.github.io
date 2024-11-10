@@ -214,9 +214,12 @@ Student Response 1 2 3 4 5 6 7 (define (sum-of-squares x y) (&#43; (* x x) (* y 
     </h2>
   </header>
   <div class="entry-content">
-    <p>Exercise Student Response 1 () Teacher Evaluation Evaluation</p>
+    <p>Exercise Alyssa P. Hacker doesn’t see why if needs to be provided as a special form. “Why can’t I just define it as an ordinary procedure in terms of cond?” she asks. Alyssa’s friend Eva Lu Ator claims this can indeed be done, and she defines a new version of if:
+1 2 3 (define (new-if predicate then-clause else-clause) (cond (predicate then-clause) (else else-clause))) Eva demonstrates the program for Alyssa:
+1 2 3 4 5 (new-if (= 2 3) 0 5) 5 (new-if (= 1 1) 0 5) 0 Delighted, Alyssa uses new-if to rewrite the square-root program:
+...</p>
   </div>
-  <footer class="entry-footer">1 min</footer>
+  <footer class="entry-footer">4 min</footer>
   <a class="entry-link" aria-label="post link to Exercise 1.6" href="https://myleshenderson.github.io/exercises/1.6/"></a>
 </article>
     </main>
