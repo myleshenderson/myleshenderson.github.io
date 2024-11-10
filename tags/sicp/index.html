@@ -180,6 +180,21 @@ The Solution 1 2 3 4 5 6 7 (define (sum-of-squares x y) (&#43; (* x x) (* y y)))
   <footer class="entry-footer">2 min</footer>
   <a class="entry-link" aria-label="post link to Exercise 1.4" href="https://myleshenderson.github.io/exercises/1.4/"></a>
 </article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Exercise 1.5
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The Exercise Ben Bitdiddle has invented a test to determine whether the interpreter he is faced with is using applicative-order evaluation or normal-order evaluation. He defines the following two procedures:
+1 2 3 4 5 6 (define (p) (p)) (define (test x y) (if (= x 0) 0 y)) Then he evaluates the expression
+1 (test 0 (p)) What behavior will Ben observe with an interpreter that uses applicative-order evaluation? What behavior will he observe with an interpreter that uses normal-order evaluation? Explain your answer. (Assume that the evaluation rule for the special form if is the same whether the interpreter is using normal or applicative order: The predicate expression is evaluated first, and the result determines whether to evaluate the consequent or the alternative expression.)
+...</p>
+  </div>
+  <footer class="entry-footer">2 min</footer>
+  <a class="entry-link" aria-label="post link to Exercise 1.5" href="https://myleshenderson.github.io/exercises/1.5/"></a>
+</article>
     </main>
     
 <footer class="footer">
