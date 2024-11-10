@@ -56,7 +56,11 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Exercises">
+</noscript>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+<meta property="og:title" content="Exercises">
 <meta property="og:description" content="">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://myleshenderson.github.io/exercises/">
@@ -152,9 +156,11 @@ Chat Transcript - Tab 1 User: is there anything special that i need to think thr
     </h2>
   </header>
   <div class="entry-content">
-    <p>The Exercise Thoughts Solution Process Here’s how I worked through this problem:
-Chat Transcript - Tab 1 AI (claude-3.5-sonnet): I notice you’ve shared a bash script file, but your question about “exercise 1.2” seems unrelated to this file. Could you please provide more context about which exercise 1.2 you’re referring to? Without more information about:
-Which course/book/tutorial this is from What topic area this covers What the exercise instructions are I won’t be able to help you accurately. Please share more details and I’ll be happy to assist!
+    <p>The Exercise Translate the following expression into prefix form
+$5 &#43; 4 &#43; (2 - ( 3- (6 &#43; \frac{4}{5})))/ 3 \cdot (6-2)\cdot(2-7)$
+Thoughts Solution Process Here’s how I worked through this problem:
+Chat Transcript - Tab 1 User: explain the code AI (claude-3.5-sonnet): Let me break down this Scheme expression:
+This is a complex mathematical expression that uses nested functions for arithmetic operations. Let’s solve it step by step from the inside out:
 ...</p>
   </div>
   <footer class="entry-footer">2 min</footer>
@@ -176,6 +182,20 @@ Which course/book/tutorial this is from What topic area this covers What the exe
         <path d="M12 6H0l6-6z" />
     </svg>
 </a>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "\\(", right: "\\)", display: false}
+            ],
+            throwOnError : false
+        });
+    });
+</script>
+
 
 <script>
     let menu = document.getElementById('menu')
