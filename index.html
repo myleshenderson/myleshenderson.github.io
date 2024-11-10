@@ -61,12 +61,12 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
-<meta property="og:title" content="Adventures in SICP with AI">
+<meta property="og:title" content="Welcome to Programming Exercises">
 <meta property="og:description" content="">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://myleshenderson.github.io/">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Adventures in SICP with AI">
+<meta name="twitter:title" content="Welcome to Programming Exercises">
 <meta name="twitter:description" content="">
 
 <script type="application/ld+json">
@@ -128,6 +128,10 @@
     </nav>
 </header>
 <main class="main"> 
+<div class="post-content"><p><a href="/exercises/">Get Started with Exercises →</a></p>
+
+
+</div>
 
 <article class="first-entry"> 
   <header class="entry-header">
@@ -135,11 +139,11 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>The Exercise Below is a sequence of expressions. What is the result printed by the interpreter in response to each expression? Assume that the sequence is to be evaluated in the order in which it is presented.
-The Solution 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 10 ; 10 (&#43; 5 3 4) ; 12 (- 9 1) ; 8 (/ 6 2) ; 3 (&#43; (* 2 4) (- 4 6)) (define a 3) ; a = 3 (define b (&#43; a 1)) ; b = 4 (&#43; a b (* a b)) ; 19 (= a b) ; #f (if (and (&gt; b a) (&lt; b (* a b))) b a) ; b (cond ((= a 4) 6) ((= b 4) (&#43; 6 7 a)) ; 16 (else 25)) ; 25 (&#43; 2 (if (&gt; b a) b a)) ; 6 (* (cond ((&gt; a b) a) ; 4 ((&lt; a b) b) ; 4 (else -1)) ; -1 (&#43; a 1)) ; 5 Chat Transcript - Tab 1 User: is there anything special that i need to think through? AI (claude-3.5-sonnet): Looking at this code, it’s a great introduction to Scheme (part of SICP - Structure and Interpretation of Computer Programs). Here are the key things to think through:
+    <p>Exercise Below is a sequence of expressions. What is the result printed by the interpreter in response to each expression? Assume that the sequence is to be evaluated in the order in which it is presented.
+Student Response 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 10 ; 10 (&#43; 5 3 4) ; 12 (- 9 1) ; 8 (/ 6 2) ; 3 (&#43; (* 2 4) (- 4 6)) (define a 3) ; a = 3 (define b (&#43; a 1)) ; b = 4 (&#43; a b (* a b)) ; 19 (= a b) ; #f (if (and (&gt; b a) (&lt; b (* a b))) b a) ; b (cond ((= a 4) 6) ((= b 4) (&#43; 6 7 a)) ; 16 (else 25)) ; 25 (&#43; 2 (if (&gt; b a) b a)) ; 6 (* (cond ((&gt; a b) a) ; 4 ((&lt; a b) b) ; 4 (else -1)) ; -1 (&#43; a 1)) ; 5 Evaluation is there anything special that i need to think through? Looking at this code, it’s a great introduction to Scheme (part of SICP - Structure and Interpretation of Computer Programs). Here are the key things to think through:
 ...</p>
   </div>
-  <footer class="entry-footer">3 min</footer>
+  <footer class="entry-footer">2 min</footer>
   <a class="entry-link" aria-label="post link to Exercise 1.1" href="https://myleshenderson.github.io/exercises/1.1/"></a>
 </article>
 
@@ -149,9 +153,9 @@ The Solution 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 10 ; 10 (&#43; 5
     </h2>
   </header>
   <div class="entry-content">
-    <p>The Exercise Translate the following expression into prefix form
+    <p>Exercise Translate the following expression into prefix form
 $5 &#43; 4 &#43; (2 - ( 3- (6 &#43; \frac{4}{5})))/ 3 \cdot (6-2)\cdot(2-7)$
-The Solution 1 2 3 (/ (&#43; 5 4 (- 2 (- 3 (&#43; 6 (/ 4 5))))) (* 3 (- 6 2) (- 2 7))) ; -37/150 Chat Transcript - Tab 1 User: explain the code AI (claude-3.5-sonnet): Let me break down this Scheme expression:
+Student Response 1 2 3 (/ (&#43; 5 4 (- 2 (- 3 (&#43; 6 (/ 4 5))))) (* 3 (- 6 2) (- 2 7))) ; -37/150 Teacher Evaluation Evaluation explain the code Let me break down this Scheme expression:
 This is a complex mathematical expression that uses nested functions for arithmetic operations. Let’s solve it step by step from the inside out:
 ...</p>
   </div>
@@ -165,8 +169,8 @@ This is a complex mathematical expression that uses nested functions for arithme
     </h2>
   </header>
   <div class="entry-content">
-    <p>The Exercise Define a procedure that takes three numbers as arguments and returns the sum of the squares of the two larger numbers.
-The Solution 1 2 3 4 5 6 7 (define (sum-of-squares x y) (&#43; (* x x) (* y y))) (define (sum-of-squares-of-two-largest x y z) (cond ((and (&lt;= x y) (&lt;= x z)) (&#43; (* y y) (* z z))) ((and (&lt;= y x) (&lt;= y z)) (&#43; (* x x) (* z z))) (else (&#43; (* x x) (* y y))))) Chat Transcript - Tab 1 User: Explain this code AI (claude-3.5-sonnet): Let me explain the Scheme code from the main file:
+    <p>Exercise Define a procedure that takes three numbers as arguments and returns the sum of the squares of the two larger numbers.
+Student Response 1 2 3 4 5 6 7 (define (sum-of-squares x y) (&#43; (* x x) (* y y))) (define (sum-of-squares-of-two-largest x y z) (cond ((and (&lt;= x y) (&lt;= x z)) (&#43; (* y y) (* z z))) ((and (&lt;= y x) (&lt;= y z)) (&#43; (* x x) (* z z))) (else (&#43; (* x x) (* y y))))) Teacher Evaluation Evaluation Explain this code Let me explain the Scheme code from the main file:
 ...</p>
   </div>
   <footer class="entry-footer">2 min</footer>
@@ -179,8 +183,7 @@ The Solution 1 2 3 4 5 6 7 (define (sum-of-squares x y) (&#43; (* x x) (* y y)))
     </h2>
   </header>
   <div class="entry-content">
-    <p>The Exercise Observe that our model of evaluation allows for combinations whose operators are compound expressions. Use this observation to describe the behavior of the following procedure:
-1 2 (define (a-plus-abs-b a b) ((if (&gt; b 0) &#43; -) a b)) Description of the behavior Predicate:
+    <p>Exercise Observe that our model of evaluation allows for combinations whose operators are compound expressions. Use this observation to describe the behavior of the following procedure: 1 2 (define (a-plus-abs-b a b) ((if (&gt; b 0) &#43; -) a b)) Student Response Predicate:
 1 (&gt; b 0) Consequent:
 1 &#43; Alternative:
 1 - So that means that if b is greater than 0, then we add a and b, otherwise we subtract b from a. We can use compound expressions as operators in procedures.
@@ -196,13 +199,25 @@ The Solution 1 2 3 4 5 6 7 (define (sum-of-squares x y) (&#43; (* x x) (* y y)))
     </h2>
   </header>
   <div class="entry-content">
-    <p>The Exercise Ben Bitdiddle has invented a test to determine whether the interpreter he is faced with is using applicative-order evaluation or normal-order evaluation. He defines the following two procedures:
+    <p>Exercise Ben Bitdiddle has invented a test to determine whether the interpreter he is faced with is using applicative-order evaluation or normal-order evaluation. He defines the following two procedures:
 1 2 3 4 5 6 (define (p) (p)) (define (test x y) (if (= x 0) 0 y)) Then he evaluates the expression
 1 (test 0 (p)) What behavior will Ben observe with an interpreter that uses applicative-order evaluation? What behavior will he observe with an interpreter that uses normal-order evaluation? Explain your answer. (Assume that the evaluation rule for the special form if is the same whether the interpreter is using normal or applicative order: The predicate expression is evaluated first, and the result determines whether to evaluate the consequent or the alternative expression.)
 ...</p>
   </div>
   <footer class="entry-footer">3 min</footer>
   <a class="entry-link" aria-label="post link to Exercise 1.5" href="https://myleshenderson.github.io/exercises/1.5/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Exercise 1.6
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Exercise Student Response 1 () Teacher Evaluation Evaluation</p>
+  </div>
+  <footer class="entry-footer">1 min</footer>
+  <a class="entry-link" aria-label="post link to Exercise 1.6" href="https://myleshenderson.github.io/exercises/1.6/"></a>
 </article>
     </main>
     
