@@ -368,5 +368,13 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Delighted, Alyssa uses new-if to rewrite the square-root program:&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>Exercise 1.7</title>
+      <link>https://myleshenderson.github.io/exercises/1.7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://myleshenderson.github.io/exercises/1.7/</guid>
+      <description>&lt;h2 id=&#34;exercise&#34;&gt;Exercise&lt;/h2&gt;
+&lt;p&gt;The good-enough? test used in computing square roots will not be very effective for finding the square roots of very small numbers. Also, in real computers, arithmetic operations are almost always performed with limited precision. This makes our test inadequate for very large numbers. Explain these statements, with examples showing how the test fails for small and large numbers. An alternative strategy for implementing good-enough? is to watch how guess changes from one iteration to the next and to stop when the change is a very small fraction of the guess. Design a square-root procedure that uses this kind of end test. Does this work better for small and large numbers?&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
